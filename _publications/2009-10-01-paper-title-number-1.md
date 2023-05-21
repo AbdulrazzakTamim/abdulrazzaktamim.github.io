@@ -8,5 +8,3 @@ venue: 'Oxford Review of Economic Policy'
 citation: 'Stillman, Sarah, Rozo, Sandra, Tamim, Abdulrazzak, Palmer, Bailey, Smith, Emma, Miguel, Edward. (2022). &quot;The Syrian refugee life study: first glance.&quot; <i>Oxford Review of Economic Policy</i>. 38(3).'
 ---
 [Download paper here](https://academic.oup.com/oxrep/article-abstract/38/3/625/6701694)
-
-Recommended citation: Stillman, Sarah, Rozo, Sandra, Tamim, Abdulrazzak, Palmer, Bailey, Smith, Emma, Miguel, Edward. (2022). &quot;The Syrian refugee life study: first glance. <i>Oxford Review of Economic Policy</i>. 38(3).
