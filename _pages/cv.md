@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * B.A. in Economics, American University of Beirut, 2018
-* M.Sc. in Agricultural Economics, McGill University, 2022
-* Ph.D in Economics, University of California, Berkeley, 2028 (expected)
+* M.Sc. in Agricultural Economics, McGill University, 2020
+* Ph.D. in Economics, University of California, Berkeley, 2028 (expected)
 
 Publications
 ======
