@@ -14,4 +14,4 @@ Prior to starting my PhD, I worked as a pre-doc on forced displacement topics in
 
 Before that and as part of my master’s thesis in Agricultural Economics at McGill University, I worked with [Aurelie Harou](https://aurelieharou.com/) (McGill), [Marshall Burke](https://web.stanford.edu/~mburke/) (Stanford), and [David Lobell](https://fse.fsi.stanford.edu/people/david_lobell) (Stanford) on assessing the effects of relaxing credit and information constraints on agricultural productivity in Tanzania. 
 
-Feel free to reach to me at <a href="mailto:atamim@berkeley.edu" target="_blank" rel="noopener noreferrer">atamim@berkeley.edu</a> if you have any questions!
+Feel free to reach out to me at <a href="mailto:atamim@berkeley.edu" target="_blank" rel="noopener noreferrer">atamim@berkeley.edu</a> if you have any questions!
