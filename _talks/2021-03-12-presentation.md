@@ -8,6 +8,6 @@ date: 2021-03-12
 location: "San Diego, CA, USA"
 ---
 
-I shared ongoing work with other researchers at the Pacific Conference for Development Economics (PacDev). 
+Our paper was selected for presentation at the Pacific Conference for Development Economics (PacDev). I shared new results including the latest satellite-derived productivity measures. 
 The link for the program is available [here](https://cega.berkeley.edu/event/pacific-conference-for-development-economics-pacdev-2021/)
 
