@@ -3,8 +3,8 @@ title: "Housing Subsidies and Externalities: Experimental Evidence from Syrian R
 collection: talks
 type: "Presentation"
 permalink: talk-2022-11-28
-venue: "Elinor Ostrom Hall, DIW Berlin (Virtual)"
-date: 2022-10-13
+venue: "Elinor Ostrom Hall, DIW Berlin"
+date: 2022-11-28
 location: "Berlin, Germany"
 ---
 
