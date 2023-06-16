@@ -3,7 +3,7 @@ title: "The Long-Term Effects of Relaxing Information and Credit Constraints: Ev
 collection: talks
 type: "Presentation"
 permalink: talk-2020-11-07
-venue: "Dartmouth College (Virtual)"
+venue: "Dartmouth College"
 date: 2020-11-07
 location: "Hanover, NH, USA"
 ---
