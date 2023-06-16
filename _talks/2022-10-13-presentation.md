@@ -5,7 +5,7 @@ type: "Presentation"
 permalink: presentation-2022-10-13
 venue: "David Brower Center"
 date: 2022-10-13
-location: "Berkeley, California, USA"
+location: "Berkeley, CA, USA"
 ---
  
 I participated in CEGA’s annual Evidence to Action symposium, “Confronting Conflict and Displacement in a Changed World,” This presentation summarizes some of ongoing research in Jordan and Kenya, which is conducted by large research teams from the World Bank, Harvard, Berkeley, and UNHCR.
