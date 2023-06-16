@@ -3,7 +3,7 @@ title: "The Effects of Relaxing Information and Credit Constraints on Productivi
 collection: talks
 type: "Presentation"
 permalink: presentation-2021-03-12
-venue: "University of California, San Diego (Virtual)"
+venue: "University of California, San Diego"
 date: 2021-03-12
 location: "San Diego, CA, USA"
 ---
