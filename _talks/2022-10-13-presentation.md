@@ -1,8 +1,8 @@
 ---
 title: "Research in forced displacement: Insights from Jordan and Kenya"
 collection: talks
-type: "Talk"
-permalink: talk-2022-10-13
+type: "Presentation"
+permalink: presentation-2022-10-13
 venue: "Center for Effective Global Action, UC Berkeley"
 date: 2022-10-13
 location: "Berkeley, California"
