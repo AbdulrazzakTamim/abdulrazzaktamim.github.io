@@ -16,7 +16,7 @@ Education
 * B.A. in Economics _(with Distinction)_, American University of Beirut, 2018
 * Visiting Student, Michigan State University, 2017
 
-Publications
+Papers
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
