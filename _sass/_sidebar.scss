@@ -83,8 +83,8 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    //max-width: 175px;
+    //border-radius: 50%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -164,7 +164,7 @@
   right: 0;
   margin-top: 15px;
   padding: 10px;
-  list-style-type: none;
+  list-style-type: none;\cite{DoNascimentoMiguel_2024}
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background: #fff;
