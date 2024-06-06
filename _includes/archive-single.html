@@ -61,7 +61,8 @@
     {% endif %}
 
     {% if post.co_authors %}
-      <p class="archive__item-co-authors"><strong>Co-authors:</strong> {{ post.co_authors | markdownify }}</p>
+    <p class="archive__item-co-authors"><strong>Co-authors:</strong> <span class="co-authors-list">{{ post.co_authors | markdownify }}</span></p>
     {% endif %}
+
   </article>
 </div>
