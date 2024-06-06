@@ -11,11 +11,13 @@ author_profile: true
 
 {% include base_path %}
 
+{% assign post_count = 0 %}
 {% for post in site.publications reversed %}
-  {% if forloop.index0 % 5 == 0 and forloop.index0 != 0 %}
+  {% include archive-single.html %}
+  {% assign post_count = post_count | plus: 1 %}
+  {% if post_count == 2 %}
     <hr>
   {% endif %}
-  {% include archive-single.html %}
 {% endfor %}
 
 <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
