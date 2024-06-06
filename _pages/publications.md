@@ -14,12 +14,6 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-  
-  {% assign post_count = post_count | plus: 1 %}
-  {% if post_count == 2 %}
-    <hr>
-  {% endif %}
-{% endfor %}
 
 <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
   <h2 class="archive__item-title">
