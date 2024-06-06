@@ -12,6 +12,9 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
+  {% if forloop.index0 % 5 == 0 and forloop.index0 != 0 %}
+    <hr>
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
 
