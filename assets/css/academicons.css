@@ -325,3 +325,12 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+.archive__item-co-authors {
+  display: flex;
+  align-items: center;
+}
+
+.co-authors-list {
+  display: inline;
+  margin-left: 5px;
+}
