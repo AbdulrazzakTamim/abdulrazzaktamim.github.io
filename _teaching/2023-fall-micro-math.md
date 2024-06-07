@@ -8,4 +8,4 @@ date: 2023-09-01
 location: "Berkeley, United States"
 ---
 
-I was a Graduate Student Instructor for Econ 101A (Fall 2023) for [Cecile Gaubert](https://eml.berkeley.edu/~cecile.gaubert/) at the University of California, Berkeley. 
+Graduate Student Instructor for Econ 101A (Fall 2023) for [Cecile Gaubert](https://eml.berkeley.edu/~cecile.gaubert/) at the University of California, Berkeley. 
