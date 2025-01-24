@@ -1,9 +1,9 @@
 ---
-title: " Relaxing Credit and Information Constraints: Five-Year Experimental Evidence from Tanzanian Agriculture"
+title: " Housing Subsidies for Refugees: Experimental Evidence on Life Outcomes and Social Integration in Jordan"
 collection: publications
 permalink: /publication/SoilDoc1
-date: 2024-1-1
-venue: 'Economic Development and Cultural Change'
-co_authors: '[Aurélie Harou](https://aurelieharou.com/), [Marshall Burke](http://web.stanford.edu/~mburke/), [David Lobell](https://profiles.stanford.edu/david-lobell), [Malgosia Madajewicz](https://people.climate.columbia.edu/users/profile/malgosia-madajewicz), [Christopher Magomba](https://basis.ucdavis.edu/people/christopher-magomba), [Hope Michelson](https://www.hopemichelson.org/), [Cheryl Palm](https://abe.ufl.edu/people/faculty/cheryl-palm/), and [Jiani Xue](https://marketing.wharton.upenn.edu/profile/jennyxue/)'
+date: 2025-1-1
+venue: ''
+co_authors: Sam Leone, '[Edward Miguel](http://emiguel.econ.berkeley.edu/), Bailey Palmer, [Sandra Rozo](https://www.sandrarozo.net/), [Emma Smith](https://sites.harvard.edu/emmasmith/), and Sarah Stillman'
 ---
-[[published paper](https://www.journals.uchicago.edu/doi/10.1086/731589)], [[coverage by MRR Innovation Lab](https://basis.ucdavis.edu/news/qa-hope-michelson)], [[data and code](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FVLQF5)]
+[World Bank WP]([https://www.journals.uchicago.edu/doi/10.1086/731589](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099831501212542537/idu1a72809a417fd714c7918d82140a01ed1a392))
