@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the Economics Department at Berkeley.
+I am a PhD Candidate in the Economics Department at Berkeley.
 
 Feel free to reach out to me at <a href="mailto:atamim@berkeley.edu" target="_blank" rel="noopener noreferrer">atamim@berkeley.edu</a> if you have any questions!
