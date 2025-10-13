@@ -3,6 +3,7 @@ title: "The Syrian Refugee Life Study: First Glance"
 collection: papers
 permalink: /publication/2009-10-01-paper-title-number-1
 date: 2022-09-15
+status: 'published'
 venue: 'Oxford Review of Economic Policy'
 co_authors: '[Edward Miguel](http://emiguel.econ.berkeley.edu/), Bailey Palmer, [Sandra Rozo](https://www.sandrarozo.net/), [Emma Smith](https://sites.harvard.edu/emmasmith/), and Sarah Stillman'
 ---
