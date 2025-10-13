@@ -35,9 +35,23 @@
 
 /* Custom Styles */
 
-/* Times New Roman for entire site */
-* {
+/* Times New Roman for entire site - BUT NOT ICONS */
+body,
+.page__content,
+.archive__item-title,
+.archive__item-excerpt,
+h1, h2, h3, h4, h5, h6,
+p, li, a,
+.author__name,
+.author__bio {
   font-family: "Times New Roman", Times, serif !important;
+}
+
+/* Make sure Font Awesome icons keep their font */
+.fa, .fas, .fab, .far, .fal,
+[class^="fa-"],
+[class*=" fa-"] {
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands" !important;
 }
 
 /* Section headers - larger than paper titles */
