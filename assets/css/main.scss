@@ -99,3 +99,16 @@
 .co-authors-list {
   font-weight: normal;
 }
+
+
+/* Remove extra space at top of publications page */
+.page__content > h2:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* If you have the Google Scholar text, reduce its margin too */
+.page__content > p:first-child {
+  margin-top: 0 !important;
+  margin-bottom: 1.5em !important;
+}
