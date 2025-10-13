@@ -39,3 +39,76 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+/* Publications page styling */
+.publications-section {
+  margin-bottom: 3em;
+}
+
+.archive__item {
+  border-left: 4px solid #f0f0f0;
+  padding-left: 20px;
+  margin-bottom: 2.5em;
+  transition: border-color 0.3s ease;
+}
+
+.archive__item:hover {
+  border-left-color: #3498db;
+}
+
+.archive__item-title {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.archive__item-excerpt {
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Section headers with color coding */
+h2.publications-header {
+  font-size: 1.5em;
+  color: #2c3e50;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 3px solid;
+}
+
+h2.publications-header.published {
+  border-bottom-color: #3498db; /* Blue for published */
+}
+
+h2.publications-header.working {
+  border-bottom-color: #e67e22; /* Orange for working papers */
+}
+
+h2.publications-header.wip {
+  border-bottom-color: #95a5a6; /* Gray for WIP */
+}
+
+/* Link styling */
+.archive__item a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.archive__item a:hover {
+  text-decoration: underline;
+}
+
+/* Co-authors styling */
+.archive__item-co-authors {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 0.5em;
+}
+
+.co-authors-list {
+  font-weight: normal;
+}
