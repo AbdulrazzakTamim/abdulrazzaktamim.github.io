@@ -11,18 +11,18 @@ author_profile: true
 
 {% include base_path %}
 
+## Publications
+
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.venue and post.venue != "" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
-<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-  <h2 class="archive__item-title">
-    <a href="{{ post.url }}" itemprop="url">
-      <span itemprop="name">{{ post.title }}</span>
-    </a>
-  </h2>
-  <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</p>
-  {% if post.co_authors %}
-    <p class="archive__item-co-authors"><strong>Co-authors:</strong> {{ post.co_authors | markdownify }}</p>
+## Work in Progress
+
+{% for post in site.publications reversed %}
+  {% if post.venue == "" or post.venue == nil %}
+    {% include archive-single.html %}
   {% endif %}
-</article>
+{% endfor %}
