@@ -122,3 +122,17 @@ h1, h2, h3, h4, h5, h6,
 p, li, a {
   font-family: "Times New Roman", Times, serif !important;
 }
+
+
+/* Make section headers larger than paper titles */
+.page__content h2 {
+  font-size: 2em !important;  /* Section headers */
+  font-weight: 700 !important;
+  margin-top: 2em !important;
+  margin-bottom: 1em !important;
+}
+
+.archive__item-title {
+  font-size: 1.2em !important;  /* Paper titles */
+  font-weight: 600 !important;
+}
