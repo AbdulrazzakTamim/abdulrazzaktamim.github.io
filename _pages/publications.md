@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h2 style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 3px; margin-top: 3em; margin-bottom: 1.5em;">Publications</h2>
+<h2 style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 3px; margin-top: 0; margin-bottom: 1.5em;">Publications</h2>
 
 {% for post in site.publications reversed %}
   {% if post.status == "published" %}
