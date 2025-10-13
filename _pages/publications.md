@@ -6,12 +6,12 @@ author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+  <p style="margin-bottom: 2em;">You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u></p>
 {% endif %}
 
 {% include base_path %}
 
-# Publications
+<h2 style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 2em; margin-bottom: 1.5em;">Publications</h2>
 
 {% for post in site.publications reversed %}
   {% if post.status == "published" %}
@@ -19,7 +19,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-# Working Papers
+<h2 style="color: #2c3e50; border-bottom: 3px solid #e67e22; padding-bottom: 10px; margin-top: 3em; margin-bottom: 1.5em;">Working Papers</h2>
 
 {% for post in site.publications reversed %}
   {% if post.status == "working" %}
@@ -27,7 +27,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-# Work in Progress
+<h2 style="color: #2c3e50; border-bottom: 3px solid #95a5a6; padding-bottom: 10px; margin-top: 3em; margin-bottom: 1.5em;">Work in Progress</h2>
 
 {% for post in site.publications reversed %}
   {% if post.status == "wip" %}
