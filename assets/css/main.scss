@@ -124,15 +124,23 @@ p, li, a {
 }
 
 
-/* Make section headers larger than paper titles */
-.page__content h2 {
-  font-size: 2em !important;  /* Section headers */
-  font-weight: 700 !important;
-  margin-top: 2em !important;
-  margin-bottom: 1em !important;
-}
-
-.archive__item-title {
-  font-size: 1.2em !important;  /* Paper titles */
-  font-weight: 600 !important;
-}
+<style>
+  /* Times New Roman for entire site */
+  * {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  
+  /* Keep section headers at normal size (or slightly larger) */
+  .page__content h2 {
+    font-size: 1.5em !important;
+    font-weight: 700 !important;
+    margin-top: 2em !important;
+    margin-bottom: 1em !important;
+  }
+  
+  /* Make paper titles smaller than headers */
+  .archive__item-title {
+    font-size: 1.1em !important;
+    font-weight: 600 !important;
+  }
+</style>
