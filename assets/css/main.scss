@@ -112,3 +112,13 @@ h2.publications-header.wip {
 .co-authors-list {
   font-weight: normal;
 }
+
+// Custom font - Times New Roman for entire site
+body, 
+.page__content,
+.archive__item-title,
+.archive__item-excerpt,
+h1, h2, h3, h4, h5, h6,
+p, li, a {
+  font-family: "Times New Roman", Times, serif !important;
+}
