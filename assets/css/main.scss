@@ -1,6 +1,5 @@
 ---
 ---
-
 /*
  *    Minimal Mistakes Jekyll Theme
  *
@@ -9,15 +8,12 @@
  *  - https://twitter.com/mmistakes
  *
 */
-
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
-
 @import "reset";
 @import "base";
-
 @import "utilities";
 @import "animations";
 @import "tables";
@@ -27,19 +23,38 @@
 @import "navigation";
 @import "footer";
 @import "syntax";
-
 @import "forms";
-
 @import "page";
 @import "archive";
 @import "sidebar";
-
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* Custom Styles */
+
+/* Times New Roman for entire site */
+* {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+/* Section headers - larger than paper titles */
+.page__content h2 {
+  font-size: 1.5em !important;
+  font-weight: 700 !important;
+  margin-top: 2em !important;
+  margin-bottom: 1em !important;
+}
+
+/* Paper titles - smaller than section headers */
+.archive__item-title {
+  font-size: 1.1em !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
 
 /* Publications page styling */
 .publications-section {
@@ -57,39 +72,11 @@
   border-left-color: #3498db;
 }
 
-.archive__item-title {
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
-  line-height: 1.4;
-}
-
 .archive__item-excerpt {
   color: #666;
   font-style: italic;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-}
-
-/* Section headers with color coding */
-h2.publications-header {
-  font-size: 1.5em;
-  color: #2c3e50;
-  margin-top: 2.5em;
-  margin-bottom: 1.5em;
-  padding-bottom: 0.5em;
-  border-bottom: 3px solid;
-}
-
-h2.publications-header.published {
-  border-bottom-color: #3498db; /* Blue for published */
-}
-
-h2.publications-header.working {
-  border-bottom-color: #e67e22; /* Orange for working papers */
-}
-
-h2.publications-header.wip {
-  border-bottom-color: #95a5a6; /* Gray for WIP */
 }
 
 /* Link styling */
@@ -112,35 +99,3 @@ h2.publications-header.wip {
 .co-authors-list {
   font-weight: normal;
 }
-
-// Custom font - Times New Roman for entire site
-body, 
-.page__content,
-.archive__item-title,
-.archive__item-excerpt,
-h1, h2, h3, h4, h5, h6,
-p, li, a {
-  font-family: "Times New Roman", Times, serif !important;
-}
-
-
-<style>
-  /* Times New Roman for entire site */
-  * {
-    font-family: "Times New Roman", Times, serif !important;
-  }
-  
-  /* Keep section headers at normal size (or slightly larger) */
-  .page__content h2 {
-    font-size: 1.5em !important;
-    font-weight: 700 !important;
-    margin-top: 2em !important;
-    margin-bottom: 1em !important;
-  }
-  
-  /* Make paper titles smaller than headers */
-  .archive__item-title {
-    font-size: 1.1em !important;
-    font-weight: 600 !important;
-  }
-</style>
