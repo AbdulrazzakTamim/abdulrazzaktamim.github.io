@@ -35,23 +35,17 @@
 
 /* Custom Styles */
 
-/* Times New Roman for entire site - BUT NOT ICONS */
-body,
-.page__content,
-.archive__item-title,
-.archive__item-excerpt,
-h1, h2, h3, h4, h5, h6,
-p, li, a,
-.author__name,
-.author__bio {
+/* Times New Roman for entire site */
+* {
   font-family: "Times New Roman", Times, serif !important;
 }
 
-/* Make sure Font Awesome icons keep their font */
+/* Override: Keep Font Awesome icons with their proper font */
 .fa, .fas, .fab, .far, .fal,
 [class^="fa-"],
-[class*=" fa-"] {
-  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands" !important;
+[class*=" fa-"],
+.author__urls .svg-inline--fa {
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome" !important;
 }
 
 /* Section headers - larger than paper titles */
