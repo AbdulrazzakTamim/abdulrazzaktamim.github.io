@@ -14,7 +14,15 @@ author_profile: true
 ## Publications
 
 {% for post in site.publications reversed %}
-  {% if post.venue and post.venue != "" %}
+  {% if post.status == "published" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Working Papers
+
+{% for post in site.publications reversed %}
+  {% if post.status == "working" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -22,7 +30,7 @@ author_profile: true
 ## Work in Progress
 
 {% for post in site.publications reversed %}
-  {% if post.venue == "" or post.venue == nil %}
+  {% if post.status == "wip" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
