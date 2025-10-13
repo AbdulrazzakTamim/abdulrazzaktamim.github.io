@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h2 style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 2em; margin-bottom: 1.5em;">Publications</h2>
+<h2 style="font-size: 2em; font-weight: 700; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 3em; margin-bottom: 1.5em;">Publications</h2>
 
 {% for post in site.publications reversed %}
   {% if post.status == "published" %}
@@ -19,7 +19,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h2 style="color: #2c3e50; border-bottom: 3px solid #e67e22; padding-bottom: 10px; margin-top: 3em; margin-bottom: 1.5em;">Working Papers</h2>
+<h2 style="font-size: 2em; font-weight: 700; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 3em; margin-bottom: 1.5em;">Working Papers</h2>
 
 {% for post in site.publications reversed %}
   {% if post.status == "working" %}
@@ -27,7 +27,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h2 style="color: #2c3e50; border-bottom: 3px solid #95a5a6; padding-bottom: 10px; margin-top: 3em; margin-bottom: 1.5em;">Work in Progress</h2>
+<h2 style="font-size: 2em; font-weight: 700; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 3em; margin-bottom: 1.5em;">Work in Progress</h2>
 
 {% for post in site.publications reversed %}
   {% if post.status == "wip" %}
