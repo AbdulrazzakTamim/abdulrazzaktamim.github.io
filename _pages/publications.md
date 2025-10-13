@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Publications
+# Publications
 
 {% for post in site.publications reversed %}
   {% if post.status == "published" %}
@@ -19,7 +19,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-## Working Papers
+# Working Papers
 
 {% for post in site.publications reversed %}
   {% if post.status == "working" %}
@@ -27,7 +27,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-## Work in Progress
+# Work in Progress
 
 {% for post in site.publications reversed %}
   {% if post.status == "wip" %}
