@@ -2,7 +2,7 @@
 title: "Rationing in an Urban Water Market"
 collection: publications
 permalink: /publication/rationing
-date: 
+date: 2025-10-10
 venue: ""
 status: "wip"
 ---
