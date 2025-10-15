@@ -18,9 +18,33 @@ Education
 
 Research
 ======
-  <ul>{% for post in site.publications %}
+
+## Work in Progress
+<ul>
+{% for post in site.publications %}
+  {% if post.status == "wip" %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endif %}
+{% endfor %}
+</ul>
+
+## Working Papers
+<ul>
+{% for post in site.publications %}
+  {% if post.status == "working" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+## Publications
+<ul>
+{% for post in site.publications %}
+  {% if post.status == "published" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}
+</ul>
   
 Presentations
 ======
