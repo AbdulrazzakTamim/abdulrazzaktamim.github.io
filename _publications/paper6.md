@@ -8,4 +8,4 @@ co_authors: "[Theresa Beltramo](https://www.theigc.org/people/theresa-beltramo),
 ---
 
 
-This study evaluates the impact of a training program and an unconditional cash transfers on refugee households in Kenya's Kakuma camp. The preliminary findings suggest that tailoring humanitarian interventions based on recipients' mental health status could enhance program effectiveness. [pre-analysis plan](https://www.socialscienceregistry.org/trials/14205)
+[[pre-analysis plan](https://www.socialscienceregistry.org/trials/14205)]
