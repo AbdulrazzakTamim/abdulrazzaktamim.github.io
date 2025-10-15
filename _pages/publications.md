@@ -11,13 +11,16 @@ author_profile: true
 
 {% include base_path %}
 
-<h2 style="color: #2c3e50; border-bottom: 3px solid #4a4a4a; padding-bottom: 3px; margin-top: 0; margin-bottom: 1.5em;">Publications</h2>
+
+
+<h2 style="color: #2c3e50; border-bottom: 3px solid #4a4a4a; padding-bottom: 3px; margin-top: 3em; margin-bottom: 1.5em;">Work in Progress</h2>
 
 {% for post in site.publications reversed %}
-  {% if post.status == "published" %}
+  {% if post.status == "wip" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
 
 <h2 style="color: #2c3e50; border-bottom: 3px solid #4a4a4a; padding-bottom: 3px; margin-top: 3em; margin-bottom: 1.5em;">Working Papers</h2>
 
@@ -27,10 +30,11 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h2 style="color: #2c3e50; border-bottom: 3px solid #4a4a4a; padding-bottom: 3px; margin-top: 3em; margin-bottom: 1.5em;">Work in Progress</h2>
+
+<h2 style="color: #2c3e50; border-bottom: 3px solid #4a4a4a; padding-bottom: 3px; margin-top: 0; margin-bottom: 1.5em;">Publications</h2>
 
 {% for post in site.publications reversed %}
-  {% if post.status == "wip" %}
+  {% if post.status == "published" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
