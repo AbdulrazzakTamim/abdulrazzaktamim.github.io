@@ -35,18 +35,23 @@ layout: default
         {% endif %}
 
 
+{% assign date_str = page.date | strip %}
+{% assign venue_str = page.venue | strip %}
+
 {% unless page.status == "wip" %}
-  {% if page.collection == 'teaching' and page.venue and page.venue != "" and page.date and page.date != "" %}
+  {% if page.collection == 'teaching' and venue_str != "" and date_str != "" %}
     <p>{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | date: "%Y" }}</p>
-  {% elsif page.venue and page.venue != "" and page.date and page.date != "" %}
+  {% elsif venue_str != "" and date_str != "" %}
     <p>Published in <i>{{ page.venue }}</i>, {{ page.date | date: "%Y" }}</p>
-  {% elsif page.date and page.date != "" %}
+  {% elsif date_str != "" %}
     <p class="page__date">
-      <strong><i class="fa fa-fw fa-calendar"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
+      <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+      {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
     </p>
   {% endif %}
 {% endunless %}
+
 
 
         
