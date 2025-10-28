@@ -14,27 +14,22 @@ author_profile: true
 
 
 <h2 style="color: #2c3e50; border-bottom: 3px solid #4a4a4a; padding-bottom: 3px; margin-top: 3em; margin-bottom: 1.5em;">Work in Progress</h2>
-
 {% for post in site.publications reversed %}
   {% if post.status == "wip" %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endif %}
 {% endfor %}
-
 
 <h2 style="color: #2c3e50; border-bottom: 3px solid #4a4a4a; padding-bottom: 3px; margin-top: 3em; margin-bottom: 1.5em;">Working Papers</h2>
-
 {% for post in site.publications reversed %}
   {% if post.status == "working" %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endif %}
 {% endfor %}
 
-
 <h2 style="color: #2c3e50; border-bottom: 3px solid #4a4a4a; padding-bottom: 3px; margin-top: 0; margin-bottom: 1.5em;">Publications</h2>
-
 {% for post in site.publications reversed %}
   {% if post.status == "published" %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endif %}
 {% endfor %}
