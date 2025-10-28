@@ -7,7 +7,7 @@ status: 'published'
 venue: 'Economic Development and Cultural Change'
 layout: single
 header:
-  overlay_image: /images/publications/agriculture-thumb.png
+  overlay_image: images/publications/agriculture-thumb.png
   overlay_filter: 0.4
 co_authors: '[Marshall Burke](http://web.stanford.edu/~mburke/), [Aurélie Harou](https://aurelieharou.com/), [David Lobell](https://profiles.stanford.edu/david-lobell), [Malgosia Madajewicz](https://people.climate.columbia.edu/users/profile/malgosia-madajewicz), [Christopher Magomba](https://basis.ucdavis.edu/people/christopher-magomba), [Hope Michelson](https://www.hopemichelson.org/), [Cheryl Palm](https://abe.ufl.edu/people/faculty/cheryl-palm/), and [Jiani Xue](https://marketing.wharton.upenn.edu/profile/jennyxue/)'
 ---
