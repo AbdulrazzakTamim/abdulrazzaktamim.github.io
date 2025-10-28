@@ -5,6 +5,7 @@ permalink: /publication/SoilDoc1
 date: 2025-01-01
 status: 'published'
 venue: 'Economic Development and Cultural Change'
+layout: single
 header:
   overlay_image: /images/publications/agriculture-thumb.png
   overlay_filter: 0.4
