@@ -36,7 +36,7 @@ where $IF(Y;q_\tau)$ is the influence function of the quantile $q_\tau$, $\mathb
 
 This approach allows us to estimate treatment effects at different points of the unconditional productivity distribution, revealing important heterogeneity that would be masked by standard mean-effects estimators.
 
-## Data & Experimental Design
+## Data and Experimental Design
 
 - **Sample:** 1,050 smallholder farmers across three districts in Tanzania
 - **Duration:** Five years
