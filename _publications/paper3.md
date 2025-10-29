@@ -33,17 +33,18 @@ The program generated limited positive impacts on refugee well-being while creat
 
 
 ![Treatment Effect on Main Outcomes](/images/publications/subsidies-thumb.png)
-*Figure: Treatment effects on primary outcomes with data pooled across all the survey rounds.*
+*Figure: Treatment effects on primary outcomes against what experts predicted the treatment effects would be.*
 
 ## Methodology
 
 We employ a cluster-randomized design with instrumental variables estimation to assess program impacts:
 
 $$
-y_{ict} = \beta_0 + \beta_1\hat{T}_{ic} + X'_c\Lambda + W'_{ic}\Gamma + \mu_{ict} + \epsilon_{ict}
+y_{ict} = \beta_0 + \beta_1\widehat{T}_{ic} + X_c'\Lambda + W_{ic}'\Gamma + \mu_{ict} + \epsilon_{ict}
 $$
 
-where $y_{ict}$ represents outcomes for household $i$ in community $c$ at time $t$, $\hat{T}_{ic}$ is predicted treatment status from the first-stage regression, $X_c$ includes community stratification variables, and $W_{ic}$ captures baseline household covariates. Standard errors are clustered at the community level (the unit of randomization).
+where $y_{ict}$ represents outcomes for household $i$ in community $c$ at time $t$, $\widehat{T}_{ic}$ is predicted treatment status from the first-stage regression, $X_c$ includes community stratification variables, and $W_{ic}$ captures baseline household covariates. Standard errors are clustered at the community level.
+
 
 ## Data and Experimental Design
 
@@ -56,4 +57,4 @@ where $y_{ict}$ represents outcomes for household $i$ in community $c$ at time $
 
 Our findings reveal important tensions in refugee assistance programs. While housing subsidies achieved proximate goals of improving shelter quality and reducing rental burden, they failed to generate sustained improvements in living standards. 
 
-These results suggest that assistance delivery mechanisms matter: 70% of refugee respondents stated they would have preferred direct cash transfers, which may be less observable to neighbors and generate less resentment. The findings also highlight the risk of aid redistribution—both formal (reduced food assistance) and informal (household recomposition)—which can dilute program benefits.
+These results suggest that assistance delivery mechanisms matter: 70% of refugee respondents stated they would have preferred direct cash transfers, which may be less observable to neighbors and generate less resentment. The findings also highlight the risk of aid redistribution -- both formal (reduced food assistance) and informal (household recomposition)—which can dilute program benefits.
