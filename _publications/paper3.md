@@ -37,13 +37,13 @@ The program generated limited positive impacts on refugee well-being while creat
 
 ## Methodology
 
-We employ a cluster-randomized design with instrumental variables estimation to assess program impacts:
+We employ instrumental variables estimation with the following specification:
 
 $$
-y_{ict} = \beta_0 + \beta_1\widehat{T}_{ic} + X_c'\Lambda + W_{ic}'\Gamma + \mu_{ict} + \epsilon_{ict}
+y_{ict} = \beta_0 + \beta_1 T_{ic} + X_c \Lambda + W_{ic} \Gamma + \mu_{ict} + \epsilon_{ict}
 $$
 
-where $y_{ict}$ represents outcomes for household $i$ in community $c$ at time $t$, $\hat{T}_{ic}$ is predicted treatment status from the first-stage regression, $X_c$ includes community stratification variables, and $W_{ic}$ captures baseline household covariates. Standard errors are clustered at the community level.
+Treatment effects are estimated using predicted take-up from the first stage, where standard errors are clustered at the community level (the randomization unit). To address differential attrition, we estimate Lee (2009) bounds and report results where both bounds share the same sign.
 
 
 ## Data and Experimental Design
