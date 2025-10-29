@@ -15,7 +15,7 @@ co_authors: '[Edward Miguel](http://emiguel.econ.berkeley.edu/), [Bailey Palmer]
 
 [[published paper](https://academic.oup.com/oxrep/article-abstract/38/3/625/6701694)], [[data](https://dataverse.harvard.edu/dataverse/SRLS)]
 
-## Executive Summary
+## Summary
 
 The Syrian Refugee Life Study (SRLS) represents one of the largest longitudinal studies of forcibly displaced persons globally. This paper introduces the survey design, sampling methodology, and initial findings from the first wave of data collection covering over 3,000 Syrian refugee households across Turkey and Jordan.
 
@@ -27,7 +27,7 @@ How do refugees make decisions about work, education, health, and migration unde
 
 ## Data Infrastructure & Survey Design
 
-**Scale & Scope:**
+**Scale and Scope:**
 - **Sample Size:** 2,500 refugee households, randomly selected from the universe of registered refugees
 - **Survey Waves:** Multi-year panel study with regular check-ins
 - **Survey Modules:** Labor markets, education, health, social networks, migration intentions, legal status, remittances
@@ -53,4 +53,4 @@ How do refugees make decisions about work, education, health, and migration unde
 
 **Data Access:** The complete dataset, survey instruments, and documentation are available at the [Harvard Dataverse](https://dataverse.harvard.edu/dataverse/SRLS).
 
-This research gave me exposure to in large-scale data collection, panel survey design, and translating research findings into actionable policy recommendations—skills.
+This research gave me exposure to in large-scale data collection, panel survey design, and translating research findings into actionable policy recommendations.
