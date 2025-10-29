@@ -17,7 +17,7 @@ co_authors: '[Edward Miguel](http://emiguel.econ.berkeley.edu/), [Bailey Palmer]
 
 ## Summary
 
-The Syrian Refugee Life Study (SRLS) represents one of the largest longitudinal studies of forcibly displaced persons globally. This paper introduces the survey design, sampling methodology, and initial findings from the first wave of data collection covering over 3,000 Syrian refugee households across Turkey and Jordan.
+The Syrian Refugee Life Study (SRLS) represents one of the largest longitudinal studies of forcibly displaced persons globally. This paper introduces the survey design, sampling methodology, and initial findings from the first wave of data collection covering around 2,500 Syrian refugee households in Jordan.
 
 **Key Innovation:** Developed a novel sampling framework and longitudinal tracking system for highly mobile refugee populations, achieving high retention rates across survey waves.
 
@@ -29,7 +29,7 @@ How do refugees make decisions about work, education, health, and migration unde
 
 **Scale and Scope:**
 - **Sample Size:** 2,500 refugee households, randomly selected from the universe of registered refugees
-- **Survey Waves:** Multi-year panel study with regular check-ins
+- **Survey Waves:** Multi-year panel study with multiple rounds of data collection
 - **Survey Modules:** Labor markets, education, health, social networks, migration intentions, legal status, remittances
 
 ![Histogram of Share Married, by Age and Nationality](/images/publications/oxrep-thumb.png)
