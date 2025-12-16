@@ -1,5 +1,5 @@
 ---
-title: "Rationing in an Urban Water Market"
+title: "Rationing in an Urban Water Market (Job Market Paper)"
 collection: publications
 permalink: /publication/rationing
 date: 2025-10-16
@@ -7,4 +7,14 @@ venue: ""
 status: "wip"
 ---
 
-I develop a structural model of urban water allocation under capacity constraints to compare the welfare effects of rationing by intermittent supply, uniform quotas, and efficient pricing. I find that while quotas generate allocative inefficiency by failing to account for preference heterogeneity, intermittency imposes substantial technological costs by forcing households to invest in adaptation strategies. I recover the model's structural primitives using the universe of meter-level billing data from Amman, Jordan, combined with a novel survey quantifying the costs of intermittency. To identify the parameters governing adaptation costs, I leverage a geographic regression discontinuity design that exploits exogenous spatial variation in supply duration.
+**The Problem**
+How do we distribute essential resources when supply is fixed and prices are regulated? Traditional rationing (intermittent supply) creates hidden inefficiencies. I analyzed how alternative market designs -- such as flexible pricing or capacity quotas -- could improve efficiency and equity.
+
+**The Approach**
+* **Causal Inference:** Leveraged a spatial discontinuity (natural experiment) in the supply network to identify causal effects.
+* **Structural Modeling:** Built an equilibrium model of household demand to estimate hidden user costs (shadow prices) that administrative data misses.
+* **Large-Scale Data:** Processed the universe of meter-level billing data (900k+ users) combined with novel survey data.
+
+**Key Findings**
+* **The "Reliability Tax":** The status quo of intermittent supply acts as a regressive tax. Low-income users spend a disproportionate share of expenditure on private storage technology to cope with unreliability.
+* **Policy Counterfactuals:** Simulations show that transitioning to **market-clearing prices** or **smart quotas** would reduce the welfare loss, effectively "refunding" the wasted storage costs back to consumers.
