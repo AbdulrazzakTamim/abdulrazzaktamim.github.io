@@ -1,5 +1,5 @@
 ---
-title: "A Randomized Experiment on Cash Transfers and Psychosocial Training for Refugees in Kenya"
+title: "Depression, Poverty, and Cash: Experimental Evidence from a Refugee Camp"
 collection: publications
 permalink: /publication/water-bills
 date: 2025-10-10
