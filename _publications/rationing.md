@@ -1,5 +1,5 @@
 ---
-title: "The Welfare Cost of Non-Price Rationing (Job Market Paper)"
+title: "The Welfare Cost of Non-Price Rationing"
 collection: publications
 permalink: /publication/rationing
 date: 2025-10-16
