@@ -9,4 +9,4 @@ co_authors: "[Theresa Beltramo](https://www.theigc.org/people/theresa-beltramo),
 ---
 
 
-[[pre-analysis plan](https://www.socialscienceregistry.org/trials/14205)]
+[[pre-analysis plan](https://www.socialscienceregistry.org/trials/14205)], [[data dashboard](https://www.worldbank.org/en/data/interactive/2024/06/18/dashboard-kenya)]
