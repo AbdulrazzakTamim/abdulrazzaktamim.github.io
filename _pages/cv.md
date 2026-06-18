@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Economics, University of California, Berkeley (Ongoing)
+* Ph.D. in Economics, University of California, Berkeley, 2026
 * M.Sc. in Agricultural Economics, McGill University, 2020
 * B.A. in Economics _(with Distinction)_, American University of Beirut, 2018
 * Visiting Student, Michigan State University, 2017
