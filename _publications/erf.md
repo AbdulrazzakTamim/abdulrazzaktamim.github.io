@@ -3,7 +3,7 @@ title: "Syrian Refugees in Jordan: Demographics, Labor Market Outcomes, and Well
 collection: publications
 permalink: /publication/erf
 venue: 'Economic Research Forum'
-date: 2026-6-1
+date: 2026-06-01
 status: 'working'
 layout: single
 header:
@@ -11,9 +11,9 @@ header:
   overlay_filter: 0.3
   caption: ""
 co_authors: '[Caroline Krafft](https://carolinekrafft.com/)'
-[[paper](https://erf.org.eg/publications/syrian-refugees-in-jordan-demographics-labor-market-outcomes-and-wellbeing-through-2025/)]
-
 ---
+
+[paper](https://erf.org.eg/publications/syrian-refugees-in-jordan-demographics-labor-market-outcomes-and-wellbeing-through-2025/)
 
 ## Abstract
 
