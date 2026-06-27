@@ -13,7 +13,7 @@ header:
 co_authors: '[Caroline Krafft](https://carolinekrafft.com/)'
 ---
 
-[[paper](https://erf.org.eg/publications/syrian-refugees-in-jordan-demographics-labor-market-outcomes-and-wellbeing-through-2025/)]
+[[paper](https://erf.org.eg/publications/syrian-refugees-in-jordan-demographics-labor-market-outcomes-and-wellbeing-through-2025/)], [[policy brief](https://erf.org.eg/publications/syrian-refugees-in-jordan-progress-on-education-and-employment-deteriorating-health/)]
 
 ## Abstract
 
